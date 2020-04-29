@@ -1,0 +1,38 @@
+{
+  "name": "node_rest_post",
+  "version": "1.0.0",
+  "description": "this is Post sample with mongoos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnjneyaP/node_rest_post.git"
+  },
+  "author": "ANJNEYA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnjneyaP/node_rest_post/issues"
+  },
+  "homepage": "https://github.com/AnjneyaP/node_rest_post#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.3"
+  },
+
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "2500",
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 4000
+    }
+  }
+}
