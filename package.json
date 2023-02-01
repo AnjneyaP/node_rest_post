@@ -19,7 +19,7 @@
   "homepage": "https://github.com/AnjneyaP/node_rest_post#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.9.10",
+    "mongoose": "^5.13.15",
     "nodeman": "^1.1.2",
     "nodemon": "^2.0.3"
   },
